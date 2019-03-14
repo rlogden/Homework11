@@ -76,7 +76,6 @@ public class BlackJack {
         for (int i = 0; i < toBePrinted.size(); i++) {
             Card card = toBePrinted.get(i);
             System.out.print(card.suit + " - " + card.value);
-
             if (i + 1 < toBePrinted.size()) {
                 System.out.print(", ");
             } else {
